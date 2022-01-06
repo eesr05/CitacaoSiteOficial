@@ -12,7 +12,7 @@ https://citacoes.vercel.app/
 
 ## Tecnologias
 
-- Javascript
+
 - ReactJs
 - Typescript
 - Styled-components
