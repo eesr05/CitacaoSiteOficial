@@ -5,7 +5,7 @@ function Text(params) {
     return(
       <Texto>
         <div className='section'  >
-              
+              <center>
               <div className='Howredacao ' id="texto" >
               <h2 > <mark> Como usar as citações </mark> </h2>
               <p> Usar alusões históricas e citações alavancam sua nota na redação no Enem, por isso para te ajudar
@@ -31,9 +31,9 @@ function Text(params) {
               "não só… mas também", "ainda por cima", "A fim de', entre outros. <br /> <br/>
 
               Reserve o último parágrafo para a conclusão, na sua proposta de intervenção deve conter 5 elementos, são eles,
-              o <strong>AGENTE</strong>, que deve fazer, o <strong>MODO</strong> , como deve ser feito, o <strong>MEIO</strong>
-              como vai ser realizado, <strong>DETALHAMENTO</strong> , especificar
-              com mais detalhes, e a <strong>FINALIDADE</strong> , o que se espera conseguir com sua proposta. O ideal é que seja retomado a 
+              o <strong> <mark>AGENTE</mark></strong>, que deve fazer, o <strong><mark>MODO</mark></strong> , como deve ser feito, o <strong><mark> MEIO </mark></strong> 
+               como vai ser realizado, <strong> <mark> DETALHAMENTO</mark></strong> , especificar
+              com mais detalhes, e a <strong><mark>FINALIDADE</mark></strong> , o que se espera conseguir com sua proposta. O ideal é que seja retomado a 
               citação feita no primeiro parágrafo, para que assim fique uma redação cíclica.<br /><br />
             </p>
             <h3 className='competencia hvr-grow'> <strong>Competência 1</strong></h3>
@@ -70,6 +70,7 @@ function Text(params) {
 
                 </p>
            </div>
+           </center>
         </div>
         </Texto>
     )

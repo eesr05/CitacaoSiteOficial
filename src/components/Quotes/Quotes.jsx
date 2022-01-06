@@ -3,7 +3,7 @@ import {Quotes} from './styles'
 
 class QuoteAndAuthor extends React.Component{
     render(){
-        const randomColor =  'whitesmoke'                            //this.props.displayColor()
+        const randomColor =  'white'                            //this.props.displayColor()
         const html = document.documentElement
         html.style.backgroundColor = randomColor
         return(
@@ -16,7 +16,7 @@ class QuoteAndAuthor extends React.Component{
                 </div>
                 <button id="newquote" style={{backgroundColor: 'var(--blue)'}} onClick={this.props.handleClick}> Nova citação</button>
             </div>
-             <button id="newquote2" style={{backgroundColor: '#D96E48'}} onClick={this.props.handleClick}> Nova citação</button> 
+             <button id="newquote2" style={{backgroundColor: 'var(--blue)'}} onClick={this.props.handleClick}> Nova citação</button> 
              </center>
             </Quotes>
         )

@@ -11,6 +11,7 @@ export const  Nav = styled.nav`
   .logo {
     padding: 15px 0;
   }
+  
 `
 
 

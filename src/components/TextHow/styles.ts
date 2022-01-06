@@ -24,7 +24,7 @@ h2{
   margin: 23px 350px; 
   text-indent: 2em;
   text-align: justify;
-  line-height: 23px;
+  line-height: 25px;
 }
 
 .competencia{
@@ -38,6 +38,9 @@ h2{
 p {  
   font-family: 'Roboto',sans-serif;
   font-weight: lighter !important;
+}
+mark{
+  color:var(--blue);
   
 }
 @media only screen and (max-width: 700px){

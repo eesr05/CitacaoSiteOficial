@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import { Link,  animateScroll as scroll } from 'react-scroll'
 
 
 const Ul = styled.ul`
@@ -8,7 +8,7 @@ const Ul = styled.ul`
   display: flex;
   flex-flow: row nowrap;
   li {
-    padding: 25px 17px;
+    padding: 30px 20px;
     color: var(--white);
   }
   @media (max-width: 768px) {
@@ -31,9 +31,9 @@ const Ul = styled.ul`
 const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
-      <li>Temas</li>
-      <li>Saiba Mais</li>
-   
+           <li><Link  smooth={true} duration={1000} className="homeLink"  onClick={() => scroll.scrollToTop()}> Home </Link></li>
+            <li><Link to='texto' smooth={true} duration={1000}> Mais </Link></li>   
+            <li><Link to=' cards' smooth={true} duration={1000}>Temas</Link></li>     
     </Ul>
   )
 }

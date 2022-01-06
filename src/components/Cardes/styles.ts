@@ -13,6 +13,9 @@ export const Card = styled.div`
   color:#e97146 !important;
   margin-top: 54px;
 }
+mark{
+  color:var(--blue);
+}
 .maindiv{
   display: grid;
   grid-template-columns:repeat(3, 2fr);
@@ -24,7 +27,7 @@ export const Card = styled.div`
   margin-left: 1.5rem;
   margin-bottom: 0;
   border-radius: 15px;
-  background:#e97146;
+  background:var(--blue);
   width: 235px;
   height: 250px;
   justify-content: center;

@@ -5,7 +5,7 @@ export const Quotes = styled.div`
 body{
   margin:0;
   overflow-x: hidden;
-  background-color: whitesmoke;
+  background-color: var(--background)!important;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   
@@ -102,7 +102,7 @@ mark{
     display: flex;
     margin: 23px 0 0 7rem;
     align-items: center; 
-    border-color: #E97146 !important; 
+    border-color: var(--border) !important; 
   }
 
   #quote{
@@ -111,7 +111,7 @@ mark{
   .maindiv{
     display: grid;
 
-    grid-template-columns:repeat(1, auto);
+    
   }
   .maindiv-2{
     margin-right: 29px;

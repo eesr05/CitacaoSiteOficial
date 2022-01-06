@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { Header } from './components/Header';
 import Navbar from './components/Header/Nav/Navbar';
 import QuotesAndAuthor from './components/Quotes/Quotes';
 import { GlobalStyle } from './styles/global';
@@ -8,7 +7,7 @@ import quotes from './components/Quotes/QuotesDatabase';
 import Cardes from './components/Cardes/Cardes';
 import Text from './components/TextHow/Text';
 import redacao from './components/Cardes/Text';
-
+import Footer from './components/footer/Footer'
 class App extends React.Component{
  
   constructor(){
@@ -59,13 +58,14 @@ class App extends React.Component{
     return(
       <>
       <GlobalStyle />
-      <Header />
+   
        <Navbar />
         <div>   
            <QuotesAndAuthor displayColor={this.randomColor} handleClick={this.handleClick} {...this.state}/>
         </div>
         <Text/>
       <Cardes   {...this.state}/>  
+      <Footer />
       </>
     )
   }
