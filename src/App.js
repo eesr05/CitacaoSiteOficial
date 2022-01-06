@@ -54,7 +54,6 @@ class App extends React.Component{
         });
     } 
 
-  
 
   render(){
     return(
@@ -66,13 +65,7 @@ class App extends React.Component{
            <QuotesAndAuthor displayColor={this.randomColor} handleClick={this.handleClick} {...this.state}/>
         </div>
         <Text/>
-      <Cardes   {...this.state}/>
-
- 
-     
-
-      
-     
+      <Cardes   {...this.state}/>  
       </>
     )
   }
