@@ -1,0 +1,54 @@
+import styled from "styled-components";
+
+export const Texto = styled.div`
+.section{
+  margin-top: 600px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+   
+}
+h2{
+  text-align: center; 
+  color:#F23005 !important;
+  margin-bottom: 50px;
+ 
+}
+
+.Howredacao{
+  font-weight: normal;
+  max-width: 50em;
+  justify-content: center;    
+  margin: 23px 350px; 
+  text-indent: 2em;
+  text-align: justify;
+  line-height: 23px;
+}
+
+.competencia{
+  font-weight: bold;
+  font-family: 'Roboto',sans-serif;
+  text-align: left;
+  color: var(--blue);
+  margin:1rem;
+}
+
+p {  
+  font-family: 'Roboto',sans-serif;
+  font-weight: lighter !important;
+  
+}
+@media only screen and (max-width: 700px){
+  .Howredacao{
+    margin:1em;
+    text-indent: 0.1rem;
+  }
+ .howredacao h2{
+    margin: 1rem;
+  }
+}
+
+
+`

@@ -1,0 +1,64 @@
+import styled  from "styled-components";
+
+export const Card = styled.div`
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+.cards{
+  display: grid;
+  width: 100%;
+  height:  auto;
+  
+}
+.temas{
+  color:#e97146 !important;
+  margin-top: 54px;
+}
+.maindiv{
+  display: grid;
+  grid-template-columns:repeat(3, 2fr);
+  text-align: center;
+}
+
+.maindiv-2{
+  margin-top: 150px;
+  margin-left: 1.5rem;
+  margin-bottom: 0;
+  border-radius: 15px;
+  background:#e97146;
+  width: 235px;
+  height: 250px;
+  justify-content: center;
+  
+}
+
+.maindiv p {
+  color:#FFF    ;
+  text-align: center;
+  position: relative;
+  font-family: 'Secular One'; 
+  top: 33% !important;
+}
+
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 0.1px ;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
+}
+
+.btn_modal:hover{
+  display: inline-block;
+}
+
+`
