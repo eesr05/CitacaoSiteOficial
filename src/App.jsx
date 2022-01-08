@@ -7,7 +7,9 @@ import quotes from './components/Quotes/QuotesDatabase';
 import Cardes from './components/Cardes/Cardes';
 import Text from './components/TextHow/Text';
 import redacao from './components/Cardes/Text';
-import Footer from './components/footer/Footer'
+import Rodape from './components/footer/Rodape'
+
+
 class App extends React.Component{
  
   constructor(){
@@ -65,7 +67,7 @@ class App extends React.Component{
         </div>
         <Text/>
       <Cardes   {...this.state}/>  
-      <Footer />
+      <Rodape />
       </>
     )
   }

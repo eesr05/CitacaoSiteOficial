@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Rodape = styled.div`
+export const Rodapezinho = styled.div`
 
 .footer{
   width:100%;

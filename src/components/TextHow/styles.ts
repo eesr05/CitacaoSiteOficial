@@ -43,9 +43,9 @@ mark{
   color:var(--blue);
   
 }
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 800px){
   .Howredacao{
-    margin:1em;
+    margin:2em;
     text-indent: 0.1rem;
   }
  .howredacao h2{

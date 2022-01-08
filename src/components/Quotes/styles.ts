@@ -86,6 +86,10 @@ mark{
   .howredacao h2{
     margin: 1rem;
   }
+  .maindiv{
+    display: grid;    
+    grid-template-columns:repeat(1, 2fr)!important; 
+
 } 
 @media only screen and (max-width: 800px){
   .quotebox{
@@ -109,18 +113,20 @@ mark{
     font-size: 18px;
   }
   .maindiv{
-    display: grid;
-
-    
+    display: grid;    
+    grid-template-columns:repeat(1, 2fr)!important;
   }
+
   .maindiv-2{
     margin-right: 29px;
     margin-left: 2.5rem;
     border: 2px solid #e97146 ;
   }
+
   .footer{
     margin-top: 90rem;
   }
+
   mark{
     text-align: center;
     color: rgb(249, 250, 249);
@@ -128,11 +134,14 @@ mark{
     white-space: nowrap;
     font-size:1.5rem;
     margin-right:0.1rem;
-  }
+  } 
 }
-/* 
+ 
 @media only screen and (max-width: 1090px){
-} */
+  .maindiv{
+    grid-template-columns:repeat(2, 2fr)!important;
+  }
+} 
 
 
 `

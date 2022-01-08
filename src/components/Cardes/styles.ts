@@ -18,7 +18,7 @@ mark{
 }
 .maindiv{
   display: grid;
-  grid-template-columns:repeat(3, 2fr);
+  grid-template-columns:repeat(3, 1fr);  
   text-align: center;
 }
 
@@ -63,5 +63,11 @@ mark{
 .btn_modal:hover{
   display: inline-block;
 }
+@media only screen and (max-width:600){
+  .maindiv{
+  color: red;
+    display: grid;
+    grid-template-columns: repeat(1,2fr)!important;
+  }
 
 `
