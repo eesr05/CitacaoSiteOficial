@@ -10,6 +10,7 @@ const Ul = styled.ul`
   li {
     padding: 30px 20px;
     color: var(--white);
+    cursor:pointer;
   }
   @media (max-width: 768px) {
     flex-flow: column nowrap;

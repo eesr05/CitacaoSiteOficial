@@ -63,11 +63,13 @@ mark{
 .btn_modal:hover{
   display: inline-block;
 }
-@media only screen and (max-width:600){
+
+}
+@media only screen and (max-width: 800px){
+  
   .maindiv{
-  color: red;
+    color: red;
     display: grid;
     grid-template-columns: repeat(1,2fr)!important;
   }
-
 `
