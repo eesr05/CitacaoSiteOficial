@@ -1,8 +1,9 @@
 import {Rodapezinho} from './style'
-
+import React from 'react'
 
 const Rodape = ()=>{
     return(
+        <>
       <Rodapezinho>
       <div className='footer'>
           
@@ -14,6 +15,7 @@ const Rodape = ()=>{
              
           </div>
           </Rodapezinho>
+          </>
     )
 
 }

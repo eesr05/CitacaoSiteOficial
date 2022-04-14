@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from 'styled-components'
 import Burger from './Burger'
 import { animateScroll as scroll } from 'react-scroll'
