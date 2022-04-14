@@ -20,6 +20,7 @@ export const GlobalStyle = createGlobalStyle`
     @media (max-width:720px) {
       font-size:87.5%; /*14px*/
     }
+  
   }
   body {
     background: var(--white);
@@ -35,4 +36,17 @@ export const GlobalStyle = createGlobalStyle`
   button{
     cursor: pointer;
   }
+  
+  img{
+    opacity:10%;
+    height:30%;
+    margin:-10rem 3rem;
+   width:25rem;
+  }
+  @media (max-width:720px) {
+    #image-book{
+      display:none;
+    }
+  }
+ 
 `

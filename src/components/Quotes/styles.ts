@@ -33,6 +33,9 @@ mark{
   margin:200px 400px;
 }
 
+img{
+  height:50%;
+}
 .quote{
   margin:20px;
   text-align: left;
@@ -80,6 +83,9 @@ mark{
 
  @media only screen and (min-width:370px){
 
+  img{
+    display:none;
+  }
   #newquote2{
     margin: 23px 0 0 2rem;
   }
@@ -92,6 +98,9 @@ mark{
 
 } 
 @media only screen and (max-width: 800px){
+  img{
+    display:none;
+  }
   .quotebox{
     margin:240px 0 0 30px;
     width: 85%;
@@ -140,6 +149,9 @@ mark{
 @media only screen and (max-width: 1090px){
   .maindiv{
     grid-template-columns:repeat(2, 2fr)!important;
+  }
+  img{
+    display:none;
   }
 } 
 

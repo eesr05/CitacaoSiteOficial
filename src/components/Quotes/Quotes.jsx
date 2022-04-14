@@ -1,12 +1,13 @@
 import React from 'react'
 import {Quotes} from './styles'
-
+import Book from '../../assets/book.jpg'
 class QuoteAndAuthor extends React.Component{
     render(){
         const randomColor =  'white'                            //this.props.displayColor()
         const html = document.documentElement
         html.style.backgroundColor = randomColor
         return(
+            <>
             <Quotes>
             <center>
             <div id="quotebox"  className="quotebox hvr-grow" style={{backgroundColor: "#E1E1E1"}}>
@@ -19,6 +20,8 @@ class QuoteAndAuthor extends React.Component{
              <button id="newquote2" style={{backgroundColor: 'var(--blue)'}} onClick={this.props.handleClick}> Nova citação</button> 
              </center>
             </Quotes>
+            <img id="image-book"src={Book} alt="Book"></img>
+            </>
         )
     }
 }
