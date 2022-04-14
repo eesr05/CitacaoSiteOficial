@@ -7,7 +7,7 @@ export const Texto = styled.div`
   text-align: center;
   display: flex;
   flex-direction: column;
-  background-color: whitesmoke;
+  background-color: white;
    
 }
 h2{
