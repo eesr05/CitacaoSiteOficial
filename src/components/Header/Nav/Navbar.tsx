@@ -30,6 +30,7 @@ const Nav = styled.nav`
         margin-left:25px ;
         margin-top:25px;
         cursor:pointer;
+        text-transform: uppercase;
       }
 `
 
