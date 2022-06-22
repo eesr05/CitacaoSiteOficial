@@ -122,11 +122,11 @@ const redacao = [
   {
     "id":24,
     "title": "Desafios para combater a probreza menstrual no Brasil"    
+  },
+  {
+    "id":25,
+    "title": "Invisibilidade e registro civil: garantia de acesso à cidadania no Brasil"
   }
-
-
-
-
 ]
 
 export default redacao
